@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--  edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by Chris Schubert (European Commission DG JRC - IES)  -->
+<!--  April 2021, updated schema by Iris Heine, Andreas von Dömming (GDI-DE) -->
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ad="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:base2="http://inspire.ec.europa.eu/schemas/base2/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:hb="http://inspire.ec.europa.eu/schemas/hb/4.0" xmlns:hbd="http://inspire.ec.europa.eu/schemas/hbd/4.0" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" targetNamespace="http://inspire.ec.europa.eu/schemas/hbd/4.0" elementFormDefault="qualified" version="4.0">
 <annotation>
 <documentation>-- Name -- habitats and biotopes distribution</documentation>
@@ -8,7 +10,7 @@
 <import namespace="http://inspire.ec.europa.eu/schemas/hb/4.0" schemaLocation="https://inspire.ec.europa.eu/schemas/hb/4.0/HabitatsAndBiotopes.xsd"/>
 <import namespace="http://www.interactive-instruments.de/ShapeChange/AppInfo" schemaLocation="http://portele.de/ShapeChangeAppinfo.xsd"/>
 <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-<import namespace="http://inspire.ec.europa.eu/schemas/ad/4.0" schemaLocations="https://inspire.ec.europa.eu/schemas/ad/4.0/Addresses.xsd"/>
+<import namespace="http://inspire.ec.europa.eu/schemas/ad/4.0" schemaLocation="https://inspire.ec.europa.eu/schemas/ad/4.0/Addresses.xsd"/>
 <!-- XML Schema document created by ShapeChange -->
 <element name="SourceInformation" type="hbd:SourceInformationType" substitutionGroup="gml:AbstractFeature">
 <annotation>
@@ -303,7 +305,7 @@
 </element>
 <element name="habitat" type="hbd:HabitatTypePropertyType">
 <annotation>
-<documentation>-- Name -- habitat -- Definition -- The identifier for a habitat class, defined and described in an international, national or local habitat classification scheme. -- Description -- Habitats and biotopes may be common in some characteristics on a certain level of detail and may thus be classified as abstract types: e.g. as woodland, pastures, heathland &ndash; referring to their vegetation structure - or as running waters, limestone rocks or sand dunes - referring to abiotic features - but also as wintering areas, nesting areas or wandering corridors etc. - referring to relevant phases for the life-cycle of a certain species or ecological guild. These typological classes are usually organised in classification systems (e.g. EUNIS habitat classification)</documentation>
+<documentation>-- Name -- habitat -- Definition -- The identifier for a habitat class, defined and described in an international, national or local habitat classification scheme. -- Description -- Habitats and biotopes may be common in some characteristics on a certain level of detail and may thus be classified as abstract types: e.g. as woodland, pastures, heathland - referring to their vegetation structure - or as running waters, limestone rocks or sand dunes - referring to abiotic features - but also as wintering areas, nesting areas or wandering corridors etc. - referring to relevant phases for the life-cycle of a certain species or ecological guild. These typological classes are usually organised in classification systems (e.g. EUNIS habitat classification)</documentation>
 </annotation>
 </element>
 <element name="totalArea" nillable="true" minOccurs="0">
